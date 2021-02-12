@@ -1,0 +1,7 @@
+name = "helix"
+type = "webpack"
+account_id = "0e684890f2886087eeaeef6f82a93250"
+workers_dev = true
+# route = ""
+# zone_id = ""
+webpack_config = "webpack.config.js"

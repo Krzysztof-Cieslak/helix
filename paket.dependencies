@@ -1,0 +1,8 @@
+source https://api.nuget.org/v3/index.json
+storage: none
+
+nuget FSharp.Core
+nuget Fable.Browser.Event
+nuget Fable.Core
+nuget Fable.Fetch
+nuget Fable.Node

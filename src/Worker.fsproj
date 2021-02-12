@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="CloudflareWorkers.fs" />
+    <Compile Include="FetchUtils.fs" />
+    <Compile Include="Worker.fs" />
+  </ItemGroup>
+  <!-- Newest stable versions at time of writing -->
+  <Import Project="..\.paket\Paket.Restore.targets" />
+</Project>

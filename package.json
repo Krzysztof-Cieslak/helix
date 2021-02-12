@@ -1,0 +1,13 @@
+{
+  "name": "helix",
+  "version": "0.0.1",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "webpack": "^4.39.3"
+  },
+  "scripts": {
+    "watch": "dotnet fable watch src --outDir tmp --run wrangler dev",
+    "pub": "dotnet fable src --outDir tmp --run wrangler publish"
+  }
+}
