@@ -9,5 +9,8 @@
   "scripts": {
     "watch": "dotnet fable watch src --outDir tmp --run wrangler dev",
     "pub": "dotnet fable src --outDir tmp --run wrangler publish"
+  },
+  "dependencies": {
+    "@cloudflare/kv-asset-handler": "^0.1.0"
   }
 }

@@ -1,9 +1,10 @@
 module.exports = env => {
     return {
         entry: {worker: ['./tmp/Worker.js']},
+        context: __dirname,
         target: 'webworker',
         output: {
-            path: __dirname + '/worker'
+            path: __dirname + '/workers-site'
         },
         mode: "production",
         resolve: {

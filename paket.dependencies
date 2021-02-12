@@ -3,6 +3,7 @@ storage: none
 
 nuget FSharp.Core
 nuget Fable.Browser.Event
+nuget Fable.Browser.Url
 nuget Fable.Core
 nuget Fable.Fetch
 nuget Fable.Node
